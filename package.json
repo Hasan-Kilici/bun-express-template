@@ -1,0 +1,16 @@
+{
+  "name": "bun-template",
+  "version": "1.0.0",
+  "author": "",
+  "main": "index.js",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "start": "bun index.ts",
+    "template:http": "bun ./templates/http.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
